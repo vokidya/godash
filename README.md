@@ -1,0 +1,2 @@
+# godash
+Lodash for Go 
