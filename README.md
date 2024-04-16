@@ -1,31 +1,31 @@
 # godash
 Lodash for Go. Document coppied from loadash.
 
-* Chunk
+### Chunk
 Creates an array of elements split into groups the length of size. If array can't be split evenly, the final chunk will be the remaining elements.
 
-* Concat
+### Concat
 Creates a new array concatenating array with any additional arrays and/or values.
 
-* Difference
+### Difference
 Creates an array of array values not included in the other given arrays using SameValueZero for equality comparisons. The order and references of result values are determined by the first array.
 
-* Filter
+### Filter
 
-* Includes
+### Includes
 Different with lodash, need check
 
-* Map
+### Map
 Creates an array of values by running each element in collection thru iteratee. 
 
-* Omit
+### Omit
 The opposite of _.pick; this method creates an object composed of the own and inherited enumerable property paths of object that are not omitted.
 
-* Pick
+### Pick
 Creates an object composed of the picked object properties.
 
-* Uniq
+### Uniq
 Creates a duplicate-free version of an array, using SameValueZero for equality comparisons, in which only the first occurrence of each element is kept. The order of result values is determined by the order they occur in the array.
 
-* UniqBy
+### UniqBy
 Different with lodash, need check
