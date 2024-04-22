@@ -15,7 +15,7 @@ func TestOmit(t *testing.T) {
 		"test3": "test3",
 	}
 
-	result1 := Pick(demo, []string{"test1"})
+	result1 := Omit(demo, []string{"test1"})
 
 	assert.Equal(t, map[string]any{
 		"test3": "test3",
