@@ -1,4 +1,4 @@
-module godash
+module github.com/vokidya/godash
 
 go 1.20
 
